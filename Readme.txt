@@ -1,26 +1,24 @@
-JAVAÀÉ®×:ThirdTeamProject
+JAVAæª”æ¡ˆ:ThirdTeamProject
 
 
-1.¶}±ÒEclipse
-¥ı¦Û¤v«Ø¥ßTomcat¡A
-    ¨Ã­×§ïcontext.xml¦p¤U:
+1.é–‹å•ŸEclipse
+å…ˆè‡ªå·±å»ºç«‹Tomcatï¼Œ
+    ä¸¦ä¿®æ”¹context.xmlå¦‚ä¸‹:
 	<Context>
 	<Resource
 	  url="jdbc:sqlserver://localhost:1433;databaseName=GameShop"
 	  driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-	  username="sa"
-*­n§ï>>	  password="1qaz2wsx"
+*è¦æ”¹>>	 username="sa"
+*è¦æ”¹>>	 password="P@ssW0rd"
 	  auth="Container"
 	  type="javax.sql.DataSource"
 	  name="connectSqlServerJdbc/GameShop"/>
 
-
-
 	........</Context>
 2.
 import>>General>>Projects from Folder or Archive>>next
-¥k¤WDirectory¿ï¾Ü ThirdTeamProject¸ê®Æ§¨
-¿ï¾Ü GameShop
+å³ä¸ŠDirectoryé¸æ“‡ ThirdTeamProjectè³‡æ–™å¤¾
+é¸æ“‡ GameShop
 finish
 ==============================================================
-ºô­¶¦p¥Î¨ä¥LIDE³]­p¥i©ñ¦b®Ú¥Ø¿ı¤U¡A·f°tTempCSS©MTempJS¡A³]­p¦n¤§«á¦A¥á¶iWebContainer
+ç¶²é å¦‚ç”¨å…¶ä»–IDEè¨­è¨ˆå¯æ”¾åœ¨æ ¹ç›®éŒ„ä¸‹ï¼Œæ­é…TempCSSå’ŒTempJSï¼Œè¨­è¨ˆå¥½ä¹‹å¾Œå†ä¸Ÿé€²WebContainer
